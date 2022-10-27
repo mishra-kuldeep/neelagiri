@@ -2,7 +2,7 @@
 
 $('.slimmenu').slimmenu(
     {
-        resizeWidth: '991',
+        resizeWidth: '767',
         collapserTitle: '',
         animSpeed: 'medium',
         indentChildren: true,
@@ -39,4 +39,18 @@ $('.recipesSec .owl-carousel').owlCarousel({
     loop: true,
     margin: 20,
     dots: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        575: {
+            items: 2
+        },
+        767: {
+            items: 3
+        },
+        991: {
+            items: 4
+        }
+    }
 });
