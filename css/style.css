@@ -801,7 +801,6 @@ ul.slimmenu li.active a {
   padding: 25px 25px;
   margin-bottom: 40px;
   border: 2px solid var(--ColorGreen);
-  min-height: 678px;
 }
 
 .recipesCol iframe {
@@ -1081,7 +1080,6 @@ ul.slimmenu li.active a {
 
   .recipesCol {
     padding: 15px 15px;
-    min-height: 635px;
   }
 
   .contactWrapper h3 {
@@ -1369,7 +1367,6 @@ ul.slimmenu li.active a {
 
   .recipesCol {
     padding: 10px 10px;
-    min-height: 657px;
   }
 
   .recipesSec {
@@ -1509,10 +1506,6 @@ ul.slimmenu li.active a {
 
   .recipesCol iframe {
     height: 200px !important;
-  }
-
-  .recipesCol {
-    min-height: 595px;
   }
 
   .recipesSec {
